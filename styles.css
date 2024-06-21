@@ -101,6 +101,13 @@
 
     .bgShadow{
         text-shadow: 2px 3px 4px black;
+        position: relative;
+    }
+
+    .bgS{
+    
+        font-size: 2em;
+    
     }
 
 
