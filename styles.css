@@ -1,7 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    
-
 
     #catShield{
         position: absolute;
@@ -53,6 +51,8 @@
 
         border: 1px solid goldenrod;
     }
+
+
     
     .img{
         display: inline-flex;
@@ -97,6 +97,10 @@
         position: absolute;
         top: 25%;
         left: 21%;
+    }
+
+    .bgShadow{
+        text-shadow: 2px 3px 4px black;
     }
 
     /* .fa-shield-cat{
@@ -167,9 +171,9 @@
         position: fixed;
         bottom: 30px;
         animation-name: CatRunning;
-        animation-duration: 4s;
+        animation-duration: 7s;
         animation-iteration-count: infinite;
-
+        filter: drop-shadow(-20px -3px 9px black);
     }
 
     @keyframes CatRunning {
