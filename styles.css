@@ -95,21 +95,15 @@
         color: rgba(255, 255, 255, 0.418);
         font-size: 20em;
         position: absolute;
-        top: 25%;
-        left: 21%;
+        top: 12vw;
+        left: 19vw;
     }
 
     .bgShadow{
         text-shadow: 2px 3px 4px black;
     }
 
-    /* .fa-shield-cat{
-        color: pink;
-        font-size: 20em;
-        position: absolute;
-        top: 25%;
-        left: 10%;
-    } */
+
 
     h1{
         text-align: center;
