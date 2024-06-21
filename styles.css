@@ -1,0 +1,178 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    #catShield{
+        position: absolute;
+        z-index: 9;
+        color: rgba(255, 255, 255, 0.418);
+        font-size: 20em;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+
+    /* .fa-shield-cat{
+        color: pink;
+        font-size: 20em;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    } */
+
+    h1{
+        text-align: center;
+        position: relative;
+        top: 50px;
+
+        font-family: "Playwrite ES", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    #h3{
+        text-align: center;
+        color: red;
+        position: relative;
+        top: 4em;
+
+        font-family: "Playwrite ES", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+    
+    .box{
+        display: inline-flex;
+        justify-content: center;
+        position: relative;
+        left: 6%;
+        top: 5em;
+
+        border: 1px solid goldenrod;
+    }
+    
+    .img{
+        display: inline-flex;
+        width: 90vw;
+    height: 95vw;
+        z-index: -2;
+        position: relative;
+    }
+    
+    #button{
+        position: absolute;
+        top: 36em;
+        left: 35%;
+        
+        font-family: "Playwrite PL", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    .imgCat{
+        display: none;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #catShield{
+        position: absolute;
+        z-index: 9;
+        color: rgba(255, 255, 255, 0.418);
+        font-size: 20em;
+        position: absolute;
+        top: 25%;
+        left: 21%;
+    }
+
+    /* .fa-shield-cat{
+        color: pink;
+        font-size: 20em;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    } */
+
+    h1{
+        text-align: center;
+        position: relative;
+        top: 50px;
+
+        font-family: "Playwrite ES", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    #h3{
+        text-align: right;
+        padding-right: 340px;
+        position: relative;
+        top: -10em;
+
+        font-family: "Playwrite ES", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+    
+    .box{
+        display: inline-flex;
+        justify-content: center;
+        position: relative;
+        left: 20%;
+        top: 5em;
+
+    }
+    
+    .img{
+        display: inline-flex;
+        width: 20vw;
+        height: 25vw;
+        z-index: -2;
+        position: relative;
+    }
+    
+    #button{
+        position: absolute;
+        top: 20em;
+        left: 70%;
+        
+        font-family: "Playwrite PL", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+   
+
+    .imgCat{
+
+        width: 200px;
+        height: 100px;
+        position: fixed;
+        bottom: 30px;
+        animation-name: CatRunning;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes CatRunning {
+        0%  {left:-100px;}
+        100%{left: 100%;}
+    }
+        
+    }
+
+  
+
+
+
+
+
+
